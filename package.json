@@ -1,6 +1,5 @@
 {
   "name": "micro-platzi-profile",
-  "main": "lib/server.js",
   "scripts": {
     "build": "NODE_ENV=production babel lib --out-dir build",
     "prestart": "npm run build",
