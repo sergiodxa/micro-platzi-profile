@@ -3,7 +3,7 @@ Usage example of a microservice made with [micro.js](https://github.com/zeit/mic
 
 
 ## Installation
-Just download the repo a run `npm i`, then run `npm start:dev` to start using it or `npm start` to build the code and run it.
+Just download the repo a run `npm i`, then run `npm start` to start using it.
 
 
 ## Usage
