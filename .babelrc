@@ -1,6 +1,6 @@
 {
   "presets": ["es2015", "es2016", "stage-0"],
-  "plugins": ["transform-regenerator"],
+  "plugins": ["transform-regenerator", "transform-runtime"],
   "env": {
     "production": {
       "minified": true,
