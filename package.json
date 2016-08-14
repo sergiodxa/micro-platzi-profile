@@ -1,24 +1,13 @@
 {
   "name": "micro-platzi-profile",
+  "main": "./index.js",
+  "repository": "sergiodxa/micro-platzi-profile",
   "scripts": {
-    "build": "NODE_ENV=production babel lib --out-dir build",
-    "prestart": "npm run build",
-    "start": "node build/server.js",
-    "start:dev": "babel-node lib/server.js"
+    "start": "micro -p 3000 ."
   },
   "dependencies": {
-    "babel-polyfill": "6.13.0",
-    "babel-runtime": "6.11.6",
     "isomorphic-fetch": "2.2.1",
     "jsdom": "9.4.2",
-    "micro": "5.0.1"
-  },
-  "devDependencies": {
-    "babel-cli": "6.11.4",
-    "babel-plugin-transform-regenerator": "6.11.4",
-    "babel-plugin-transform-runtime": "6.12.0",
-    "babel-preset-es2015": "6.13.2",
-    "babel-preset-es2016": "6.11.3",
-    "babel-preset-stage-0": "6.5.0"
+    "micro": "6.0.1"
   }
 }
