@@ -6,7 +6,9 @@ module.exports = async request => {
 
   // if the username is not defined
   if (!query.username) {
-    throw new ReferenceError('You must query for a specific username.');
+    const error = new ReferenceError('You must query for a specific username.');
+    error.statusCode = 400;
+    throw error;
   }
 
   return await scrapper(query.username);
