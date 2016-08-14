@@ -6,7 +6,10 @@ module.exports = async request => {
 
   // if the username is not defined
   if (!query.username) {
-    const error = new ReferenceError('You must query for a specific username.');
+    const exampleUrl = 'https://micro-platzi-profile.now.sh?username=some-user-name';
+    const error = new ReferenceError(
+      `You must query for a specific username using a URL like ${exampleUrl}.`
+    );
     error.statusCode = 400;
     throw error;
   }
