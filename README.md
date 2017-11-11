@@ -1,4 +1,6 @@
 # micro-platzi-profile
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Usage example of a microservice made with [micro.js](https://github.com/zeit/micro) to get the user data of a Platzi's user profile scrapping it.
 
 
